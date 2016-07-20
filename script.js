@@ -20,17 +20,17 @@ $(document).ready(function() {
 			appendFizzBuzz(number);
 
 		} else {
-			$('span').append('Input cannot be a number greater than 100!');
+			$('span').append('Input cannot be a number greater than 100');
 		}
 
 		    
 		} else {
-			$('span').append('Input cannot be negative value!');
+			$('span').append('Input cannot be negative value');
 		}
 
 
 		} else {
-			$('span').append('Input must be an integer.');
+			$('span').append('Input must be an integer');
 		}
 
 	});
